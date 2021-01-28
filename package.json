@@ -8,9 +8,11 @@
   },
   "dependencies": {
     "next": "latest",
+    "prop-types": "^15.7.2",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-is": "^16.8.0",
+    "react-loadingg": "^1.7.2",
     "styled-components": "^5.0.0"
   },
   "devDependencies": {
