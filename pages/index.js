@@ -32,8 +32,16 @@ export default function Home() {
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={submit}>
-              <Input name={name} value={name} placeholder="Digite o seu nome" onChange={changeName} />
-              <Button type="submit" disabled={name.length === 0}>
+              <Input
+                name={name}
+                value={name}
+                placeholder="Digite o seu nome"
+                onChange={changeName}
+              />
+              <Button
+                type="submit"
+                disabled={name.length === 0}
+              >
                 Bora
                 {' '}
                 {name}

@@ -22,7 +22,8 @@
       "answer": 0,
       "alternatives": [
          "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "background: gradient(#e66465, #9198e5);",
+         "background: #fff, #456" 
       ]
     }
   ],
@@ -31,12 +32,12 @@
   ],
   "theme": {
     "colors": {
-      "primary": "#7666E8",
-      "secondary": "#6BF2DA",
-      "mainBg": "#ED5893",
-      "contrastText": "#F2BB6B",
-      "wrong": "#BADB6C",
-      "success": "#4CAF50"
+      "primary": "#002132",
+      "secondary": "#32DC77",
+      "mainBg": "#6a51cc",
+      "contrastText": "#9999dd",
+      "wrong": "#BADDCE",
+      "success": "#220110"
     },
     "borderRadius": "4px"
   }
