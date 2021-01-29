@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { SemipolarLoading } from 'react-loadingg';
+import { useRouter } from 'next/router';
 import db from '../db.json';
 import Widget from '../src/components/Widget';
 import QuizLogo from '../src/components/QuizLogo';
@@ -8,10 +9,15 @@ import Button from '../src/components/Button';
 import QuizContainer from '../src/components/QuizContainer';
 
 function ResultWidget({ result }) {
+  const router = useRouter();
+  const { name } = router.query;
   return (
     <Widget>
       <Widget.Header>
-        Resultado
+        Resultado de
+        {' '}
+        {name}
+        .
       </Widget.Header>
 
       <Widget.Content>
