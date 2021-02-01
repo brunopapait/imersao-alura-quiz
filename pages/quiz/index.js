@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { SemipolarLoading } from 'react-loadingg';
 import { useRouter } from 'next/router';
-import db from '../db.json';
-import Widget from '../src/components/Widget';
-import QuizLogo from '../src/components/QuizLogo';
-import QuizBackground from '../src/components/QuizBackground';
-import Button from '../src/components/Button';
-import QuizContainer from '../src/components/QuizContainer';
+import db from '../../db.json';
+import Widget from '../../src/components/Widget';
+import QuizLogo from '../../src/components/QuizLogo';
+import QuizBackground from '../../src/components/QuizBackground';
+import Button from '../../src/components/Button';
+import QuizContainer from '../../src/components/QuizContainer';
 
 function ResultWidget({ result }) {
   const router = useRouter();
@@ -71,7 +71,7 @@ function LoadingWidget() {
 function QuestionWidget({
   question, totalQuestions, questionIndex, handleSubmit, addResult,
 }) {
-  const [isFormSubmit, setIsFormSubmit] = useState(false);
+  const [, setIsFormSubmit] = useState(false);
   const [selectedAlternative, setSelectedAlternative] = useState(undefined);
   const isCorrect = selectedAlternative === question.answer;
   return (

@@ -21,23 +21,64 @@
       "description": "Faz tempo em haha",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);",
+         "background: linear-gradient(#EDE5BE, #9198e5);",
+         "background: gradient(#BFE0DC, #FAD54D);",
          "background: #fff, #456" 
+      ]
+    },
+    {
+      "image": "https://i.gifer.com/6os.gif",
+      "title": "No CSS, os seletores são nomenclaturas padronizadas destinadas a selecionar elementos para aplicação de estilo. O seletor “.nome” seleciona os elementos que possuem",
+      "description": "Essa é pra pensar",
+      "answer": 3,
+      "alternatives": [
+         "O atributo id=“nome”.",
+         "O atributo name=“nome”.",
+         "A tag <nome>.",
+         "O atributo class=“nome”."
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/fuJPZBIIqzbt1kAYVc/giphy.gif",
+      "title": "Se um elemento HTML possui o atributo ________, ele pode ser identificado na linguagem CSS por meio do caracter # (hashtag). Qual opção preenche corretamente a lacuna?",
+      "description": "pesada ain aushasu",
+      "answer": 0,
+      "alternatives": [
+         "id",
+         "class",
+         "tag",
+         "head"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/fuJPZBIIqzbt1kAYVc/giphy.gif",
+      "title": "Qual é a propriedade do CSS que estabelece o raio da borda inferior esquerda do box?",
+      "description": "Ta fácil ..",
+      "answer": 1,
+      "alternatives": [
+         "border-top-left-radius",
+         "border-bottom-left-radius",
+         "border-radius",
+         "border-top-right-radius"
       ]
     }
   ],
   "external": [
-    ""
+    "https://imersao-alura-quiz.brunopapait.vercel.app/",
+    "https://lotr-quiz.filipe1309.vercel.app/",
+    "https://quiz-star-wars.mattheussal.vercel.app/",
+    "https://quiz-react.brenoha.vercel.app/",
+    "https://1sec-quiz.victoroda.vercel.app/",
+    "https://pato-quiz-nextjs.theedouglasam.vercel.app/"
   ],
   "theme": {
     "colors": {
-      "primary": "#002132",
-      "secondary": "#32DC77",
-      "mainBg": "#6a51cc",
-      "contrastText": "#9999dd",
-      "wrong": "#BADDCE",
-      "success": "#220110"
+      "primary": "#4BED07",
+      "secondary": "#F74E07",
+      "mainBg": "#000",
+      "contrastText": "#D2FAB3",
+      "wrong": "#F04D1A",
+      "success": "#EFD3F0"
     },
     "borderRadius": "4px"
   }
